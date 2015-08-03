@@ -16,6 +16,8 @@ gem "paperclip", "~> 4.3"
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :development, :test do
   gem 'sqlite3'
