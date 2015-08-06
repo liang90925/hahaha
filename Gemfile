@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+
+
 ruby "2.2.1"
 
 gem 'rails', '4.2.3'
@@ -19,6 +21,7 @@ gem 'pg', group: :production
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'devise'
+gem 'stripe'
 
 group :development, :test do
   gem 'sqlite3'
