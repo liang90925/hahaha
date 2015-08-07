@@ -42,7 +42,8 @@ class OrdersController < ApplicationController
     @order.buyer_id = @seller.id
 
 
-    Stripe.api_key = ENV["STRIPE_API_KEY"]
+    #Stripe.api_key = ENV["STRIPE_API_KEY"]
+    Stripe.api_key = "sk_test_UfsUVKf10MUFLYlOy1aXnMJ0"
     token = params[:stripeToken]
 
     begin
